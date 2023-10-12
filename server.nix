@@ -10,6 +10,7 @@
   system.autoUpgrade.enable = true;
 
   # Save VPS space
+  zramSwap.enable = true;
   nix = {
     optimise.automatic = true;
     gc.automatic = true;
