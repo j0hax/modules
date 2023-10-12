@@ -14,4 +14,11 @@
     optimise.automatic = true;
     gc.automatic = true;
   };
+
+  # Enable typical server programs
+  programs = {
+    tmux.enable = true;
+    htop.enable = true;
+    vim.defaultEditor = true;
+  };
 }
