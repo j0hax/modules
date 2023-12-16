@@ -21,4 +21,6 @@
     htop.enable = true;
     vim.defaultEditor = true;
   };
+
+  services.tuptime.enable = true;
 }
