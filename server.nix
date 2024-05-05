@@ -6,6 +6,8 @@
     settings.KbdInteractiveAuthentication = false;
   };
 
+  services.fail2ban.enable = true;
+
   # Allow automatic updates
   system.autoUpgrade.enable = true;
 
@@ -17,6 +19,7 @@
 
   # Enable typical server programs
   programs = {
+    iftop.enable = true;
     tmux.enable = true;
     htop.enable = true;
     vim.defaultEditor = true;
