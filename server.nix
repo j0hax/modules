@@ -4,6 +4,7 @@
     enable = true;
     settings.PasswordAuthentication = false;
     settings.KbdInteractiveAuthentication = false;
+    startWhenNeeded = true;
   };
 
   services.fail2ban = {
