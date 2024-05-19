@@ -10,7 +10,7 @@
   services.fail2ban = {
     enable = true;
     bantime-increment.enable = true;
-  }:
+  };
 
   # Allow automatic updates
   system.autoUpgrade.enable = true;
