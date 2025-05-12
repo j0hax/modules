@@ -18,7 +18,10 @@
   # Save VPS space
   nix = {
     optimise.automatic = true;
-    gc.automatic = true;
+    gc = {
+      automatic = true;
+      options = "--delete-older-than 30d";
+    };
   };
 
   # Enable typical server programs
