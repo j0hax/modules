@@ -1,10 +1,11 @@
-{ config, ... }: {
+{ config, lib, ... }: {
   # Enable OpenSSH, but only allow public key auth
   services.openssh = {
     enable = true;
     settings.PasswordAuthentication = false;
     settings.KbdInteractiveAuthentication = false;
     startWhenNeeded = true;
+    banner = lib.readFile ./banner.txt;
   };
 
   services.fail2ban = {

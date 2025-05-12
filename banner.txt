@@ -1,0 +1,15 @@
+*******************************************************************************
+*                             WARNING: ACCESS FORBIDDEN                       *
+* This IT system is intended for authorized users only.                       *
+* Any unauthorized access is a criminal offense (§202a German Criminal Code)  *
+* and will be prosecuted.                                                     *
+* All activities are monitored and logged.                                    *
+* Disconnect immediately if you are not authorized.                           *
+*                                                                             *
+*                              WARNUNG: ZUGRIFF VERBOTEN                      *
+* Dieses IT-System ist nur für autorisierte Benutzer bestimmt.                *
+* Jeglicher unbefugte Zugriff ist strafbar (§202a StGB) und wird verfolgt.    *
+* Alle Aktivitäten werden überwacht und protokolliert.                        *
+* Trennen Sie die Verbindung sofort, wenn Sie nicht autorisiert sind.         *
+*******************************************************************************
+
